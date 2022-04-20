@@ -25,6 +25,6 @@ public class Order {
     @AfterMethod
     public void afterMethod()
     {
-        driver.close();
+        driver.close();//close browser
     }
 }
